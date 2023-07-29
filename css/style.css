@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/image/unsplash_YAPZt8wxMO4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+.menu>a{
+    color: black;
+  text-decoration: none;
+}
+.action-buttons{
+    display: flex;
+    gap: 15px;
+}
+.landing{
+  
+    padding: 5vh 5vh 6vh 5vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    
+
+}
+.landing > h1{
+    width: 38%;
+    font-size: 6rem;
+}
+.landing > button {
+    background-color:#010101;
+    color: white;
+    padding: 2vh 4vh 2vh 4vh;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2rem;
+    width: 10%;
+}
+.landing > h3 {
+    font-size: 1.75rem;
+    width: 20%;
+    margin: 0;
+}
+.landing > p {
+    font-size: 1.4rem;
+}
+.content-area {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 5vw;
+    padding: 3vh 5vh;
+    box-sizing: border-box;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+
+}
+.left-content{
+    width: 30%;
+}
